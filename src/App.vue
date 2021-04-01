@@ -1,21 +1,21 @@
 <template>
- <main>
-   <px-Header/>
-   <router-view class="container px-5 sm:px-20 py-20 flex justify-center" />
+<div id="app">
+  <main>
+    <px-Header />
+    <router-view class="container px-5 sm:px-20 py-20 flex justify-center" />
+  </main>
 
- </main>
+</div>
 </template>
 
 <script>
-import pxHeader from '@/components/PxHeader.vue'
+import pxHeader from "@/components/PxHeader.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-  
-    pxHeader
-   
-  }
-}
+    pxHeader,
+  },
+};
 </script>
 
 <style>
